@@ -29,7 +29,7 @@ function init() {
     }
     else {
       index = 0;
-      alert("Wrong Code entered :(");
+      alert("Wrong Code enteredx");
     }
   }
 }
