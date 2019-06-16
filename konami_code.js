@@ -22,12 +22,13 @@ function init() {
     index++;
 
     if (index === alphabet.length) {
+      alert("Hurray!");
+
       index = 0;
       }
     }
     else {
       index = 0;
-      alert("Wrong Code enteredx");
     }
   }
 }
