@@ -13,7 +13,7 @@ const codes = [
 let index = 0;
 function init() {
   // your code here
-  (e) => {
+  e => {
   if (e === codes[index]) {
     index++;
 
