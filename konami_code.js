@@ -13,7 +13,8 @@ const codes = [
 let index = 0;
 function init() {
   // your code here
-  e => {
+  keyboardEvent => {
+  const e = keyboardEvent; 
   if (e === codes[index]) {
     index++;
 
