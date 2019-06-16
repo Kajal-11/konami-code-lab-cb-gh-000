@@ -18,12 +18,12 @@ function init() {
   function triggerKeyDown(e) {
   const key = e;
 
-  if (key === alphabet[index]) {
+  if (key === codes[index]) {
     index++;
 
-    if (index === alphabet.length) {
+    if (index === codes.length) {
       index = 0;
-      return alert("Hurray!");
+      alert("Hurray!");
       }
     }
     else {
