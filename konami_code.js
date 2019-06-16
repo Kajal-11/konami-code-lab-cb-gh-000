@@ -16,7 +16,7 @@ function init() {
   let index = 0;
 
   function triggerKeyDown(e) {
-  const key = e.key;
+  const key = e;
 
   if (key === alphabet[index]) {
     index++;
