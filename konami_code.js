@@ -15,9 +15,8 @@ function init() {
   // your code here
 
   function triggerKeyDown(e) {
-  const key = e;
 
-  if (key === codes[index]) {
+  if (e === codes[index]) {
     index++;
 
     if (index === codes.length) {
