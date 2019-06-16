@@ -10,12 +10,10 @@ const codes = [
   "b",
   "a"
 ];
-
-function init() {
+let index = 0;
+function init(e) {
   // your code here
-  let index = 0;
 
-  function onKeyDownHandler(e) {
   const key = e.key;
 
   if (key === alphabet[index]) {
@@ -30,5 +28,4 @@ function init() {
     else {
       index = 0;
     }
-  }
 }
