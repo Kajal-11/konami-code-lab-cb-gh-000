@@ -14,7 +14,7 @@ let index = 0;
 function init() {
   // your code here
   keyboardEvent => {
-  const e = keyboardEvent; 
+  const e = keyboardEvent.key; 
   if (e === codes[index]) {
     index++;
 
