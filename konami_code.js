@@ -13,9 +13,7 @@ const codes = [
 let index = 0;
 function init() {
   // your code here
-
-  function triggerKeyDown(e) {
-
+  const e = keyboardEvent;
   if (e === codes[index]) {
     index++;
 
@@ -27,5 +25,4 @@ function init() {
     else {
       index = 0;
     }
-  }
 }
