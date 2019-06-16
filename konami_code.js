@@ -16,14 +16,14 @@ function init() {
   let index = 0;
 
   function triggerKeyDown(e) {
-  const key = e.key;
+  const key = e;
 
   if (key === codes[index]) {
     index++;
 
     if (index === codes.length) {
       index = 0;
-      alert("Hurray!");
+      return alert("Hurray!");
       }
     }
     else {
