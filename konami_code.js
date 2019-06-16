@@ -11,8 +11,6 @@ const codes = [
   "a"
 ];
 
-function init() {
-  // your code here
   let index = 0;
 
   function triggerKeyDown(e) {
@@ -30,4 +28,4 @@ function init() {
       index = 0;
     }
   }
-}
+
