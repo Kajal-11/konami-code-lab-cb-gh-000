@@ -13,7 +13,7 @@ const codes = [
 let index = 0;
 function init() {
   // your code here
-  document.body.addEventListener(KeyboardEvent, e => {
+  document.body.addEventListener("KeyboardEvent", e => {
   if (e === codes[index]) {
     index++;
 
