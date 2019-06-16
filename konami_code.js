@@ -22,9 +22,8 @@ function init() {
     index++;
 
     if (index === alphabet.length) {
-      alert("Hurray!");
-
       index = 0;
+      return alert("Hurray!");
       }
     }
     else {
