@@ -10,10 +10,9 @@ const codes = [
   "b",
   "a"
 ];
-
+let index = 0;
 function init() {
   // your code here
-  let index = 0;
 
   function triggerKeyDown(e) {
   const key = e;
