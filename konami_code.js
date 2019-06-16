@@ -13,8 +13,8 @@ const codes = [
 let index = 0;
 function init() {
   // your code here
-  keyboardEvent => {
-  const e = keyboardEvent.key; 
+  () => {
+  const e = triggerKeyDown(); 
   if (e === codes[index]) {
     index++;
 
